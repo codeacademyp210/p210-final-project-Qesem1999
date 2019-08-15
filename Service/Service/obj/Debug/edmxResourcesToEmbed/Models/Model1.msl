@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="finalProjectModelStoreContainer" CdmEntityContainer="finalProjectEntities">
+    <EntitySetMapping Name="Abouts">
+      <EntityTypeMapping TypeName="finalProjectModel.Abouts">
+        <MappingFragment StoreEntitySet="Abouts">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Context" ColumnName="Context" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Accardion">
+      <EntityTypeMapping TypeName="finalProjectModel.Accardion">
+        <MappingFragment StoreEntitySet="Accardion">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Context" ColumnName="Context" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Accessories">
+      <EntityTypeMapping TypeName="finalProjectModel.Accessories">
+        <MappingFragment StoreEntitySet="Accessories">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdminUsers">
+      <EntityTypeMapping TypeName="finalProjectModel.AdminUsers">
+        <MappingFragment StoreEntitySet="AdminUsers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Pasword" ColumnName="Pasword" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AksesuarQurasdirma">
+      <EntityTypeMapping TypeName="finalProjectModel.AksesuarQurasdirma">
+        <MappingFragment StoreEntitySet="AksesuarQurasdirma">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="MainHeader" ColumnName="MainHeader" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Context" ColumnName="Context" />
+          <ScalarProperty Name="Image2" ColumnName="Image2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AutoPlanet">
+      <EntityTypeMapping TypeName="finalProjectModel.AutoPlanet">
+        <MappingFragment StoreEntitySet="AutoPlanet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Context" ColumnName="Context" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Battaries">
+      <EntityTypeMapping TypeName="finalProjectModel.Battaries">
+        <MappingFragment StoreEntitySet="Battaries">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ChooseUs">
+      <EntityTypeMapping TypeName="finalProjectModel.ChooseUs">
+        <MappingFragment StoreEntitySet="ChooseUs">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Context" ColumnName="Context" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ChooseUsTags">
+      <EntityTypeMapping TypeName="finalProjectModel.ChooseUsTags">
+        <MappingFragment StoreEntitySet="ChooseUsTags">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Contacts">
+      <EntityTypeMapping TypeName="finalProjectModel.Contacts">
+        <MappingFragment StoreEntitySet="Contacts">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Adress" ColumnName="Adress" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Details">
+      <EntityTypeMapping TypeName="finalProjectModel.Details">
+        <MappingFragment StoreEntitySet="Details">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FooterBottom">
+      <EntityTypeMapping TypeName="finalProjectModel.FooterBottom">
+        <MappingFragment StoreEntitySet="FooterBottom">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ContextLeft" ColumnName="ContextLeft" />
+          <ScalarProperty Name="ContextRightFirstSpan" ColumnName="ContextRightFirstSpan" />
+          <ScalarProperty Name="ContextRightSecondSpan" ColumnName="ContextRightSecondSpan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FooterMiddle">
+      <EntityTypeMapping TypeName="finalProjectModel.FooterMiddle">
+        <MappingFragment StoreEntitySet="FooterMiddle">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FirstcolContext" ColumnName="FirstcolContext" />
+          <ScalarProperty Name="SecondcolHeader" ColumnName="SecondcolHeader" />
+          <ScalarProperty Name="SecondcolContext" ColumnName="SecondcolContext" />
+          <ScalarProperty Name="ThirdcolHeader" ColumnName="ThirdcolHeader" />
+          <ScalarProperty Name="ThirdcolContextTop" ColumnName="ThirdcolContextTop" />
+          <ScalarProperty Name="ThirdcolContextBottom" ColumnName="ThirdcolContextBottom" />
+          <ScalarProperty Name="FourthcolHeader" ColumnName="FourthcolHeader" />
+          <ScalarProperty Name="FourthcolContextFirstspan" ColumnName="FourthcolContextFirstspan" />
+          <ScalarProperty Name="FourthcolContextSecondspan" ColumnName="FourthcolContextSecondspan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FooterTop">
+      <EntityTypeMapping TypeName="finalProjectModel.FooterTop">
+        <MappingFragment StoreEntitySet="FooterTop">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LocationHeader" ColumnName="LocationHeader" />
+          <ScalarProperty Name="LocationContext" ColumnName="LocationContext" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HeaderBottom">
+      <EntityTypeMapping TypeName="finalProjectModel.HeaderBottom">
+        <MappingFragment StoreEntitySet="HeaderBottom">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Navbar" ColumnName="Navbar" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HeaderMiddle">
+      <EntityTypeMapping TypeName="finalProjectModel.HeaderMiddle">
+        <MappingFragment StoreEntitySet="HeaderMiddle">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Logo" ColumnName="Logo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HeaderTop">
+      <EntityTypeMapping TypeName="finalProjectModel.HeaderTop">
+        <MappingFragment StoreEntitySet="HeaderTop">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="WorkTime" ColumnName="WorkTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HomeSlider">
+      <EntityTypeMapping TypeName="finalProjectModel.HomeSlider">
+        <MappingFragment StoreEntitySet="HomeSlider">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Context" ColumnName="Context" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HomeSliderSlick">
+      <EntityTypeMapping TypeName="finalProjectModel.HomeSliderSlick">
+        <MappingFragment StoreEntitySet="HomeSliderSlick">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Portfolios">
+      <EntityTypeMapping TypeName="finalProjectModel.Portfolios">
+        <MappingFragment StoreEntitySet="Portfolios">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Shop">
+      <EntityTypeMapping TypeName="finalProjectModel.Shop">
+        <MappingFragment StoreEntitySet="Shop">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Context" ColumnName="Context" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="finalProjectModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ustun">
+      <EntityTypeMapping TypeName="finalProjectModel.Ustun">
+        <MappingFragment StoreEntitySet="Ustun">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UstunContent">
+      <EntityTypeMapping TypeName="finalProjectModel.UstunContent">
+        <MappingFragment StoreEntitySet="UstunContent">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="Icon" ColumnName="Icon" />
+          <ScalarProperty Name="Hearder" ColumnName="Hearder" />
+          <ScalarProperty Name="Context" ColumnName="Context" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WeOffer">
+      <EntityTypeMapping TypeName="finalProjectModel.WeOffer">
+        <MappingFragment StoreEntitySet="WeOffer">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Context" ColumnName="Context" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="XidmetContent">
+      <EntityTypeMapping TypeName="finalProjectModel.XidmetContent">
+        <MappingFragment StoreEntitySet="XidmetContent">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Context" ColumnName="Context" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Xidmetler">
+      <EntityTypeMapping TypeName="finalProjectModel.Xidmetler">
+        <MappingFragment StoreEntitySet="Xidmetler">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="yagalama">
+      <EntityTypeMapping TypeName="finalProjectModel.yagalama">
+        <MappingFragment StoreEntitySet="yagalama">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="MainHeader" ColumnName="MainHeader" />
+          <ScalarProperty Name="Image1" ColumnName="Image1" />
+          <ScalarProperty Name="Image2" ColumnName="Image2" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Context" ColumnName="Context" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Yaglar">
+      <EntityTypeMapping TypeName="finalProjectModel.Yaglar">
+        <MappingFragment StoreEntitySet="Yaglar">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="finalProjectModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Abouts">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Header" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Context" Type="nvarchar" MaxLength="1250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Accardion">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Context" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Header" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Accessories">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Image" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Text" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Price" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AdminUsers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Surname" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Username" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Pasword" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AksesuarQurasdirma">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MainHeader" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Image" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Header" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Context" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Image2" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AutoPlanet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Image" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Header" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Context" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Battaries">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Image" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Text" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Price" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ChooseUs">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Header" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Context" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ChooseUsTags">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Text" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Contacts">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Adress" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Details">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Image" Type="nvarchar" MaxLength="250" />
+    <Property Name="Text" Type="nvarchar" MaxLength="250" />
+    <Property Name="Price" Type="nvarchar" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="FooterBottom">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ContextLeft" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="ContextRightFirstSpan" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="ContextRightSecondSpan" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FooterMiddle">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstcolContext" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="SecondcolHeader" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="SecondcolContext" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="ThirdcolHeader" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="ThirdcolContextTop" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="ThirdcolContextBottom" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="FourthcolHeader" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="FourthcolContextFirstspan" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="FourthcolContextSecondspan" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FooterTop">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LocationHeader" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="LocationContext" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="HeaderBottom">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Navbar" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="HeaderMiddle">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Logo" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="HeaderTop">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="WorkTime" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="HomeSlider">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Image" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Header" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Context" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="HomeSliderSlick">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Image" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Portfolios">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Image" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Shop">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Image" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Context" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Ustun">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Header" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UstunContent">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Number" Type="int" Nullable="false" />
+    <Property Name="Icon" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Hearder" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Context" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="WeOffer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Header" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Context" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="XidmetContent">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Image" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Header" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Context" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Xidmetler">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Header" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="yagalama">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MainHeader" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Image1" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Image2" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Header" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Context" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Yaglar">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Image" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Text" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Price" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="finalProjectModelStoreContainer">
+    <EntitySet Name="Abouts" EntityType="Self.Abouts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Accardion" EntityType="Self.Accardion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Accessories" EntityType="Self.Accessories" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AdminUsers" EntityType="Self.AdminUsers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AksesuarQurasdirma" EntityType="Self.AksesuarQurasdirma" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AutoPlanet" EntityType="Self.AutoPlanet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Battaries" EntityType="Self.Battaries" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ChooseUs" EntityType="Self.ChooseUs" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ChooseUsTags" EntityType="Self.ChooseUsTags" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Contacts" EntityType="Self.Contacts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Details" EntityType="Self.Details" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FooterBottom" EntityType="Self.FooterBottom" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FooterMiddle" EntityType="Self.FooterMiddle" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FooterTop" EntityType="Self.FooterTop" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HeaderBottom" EntityType="Self.HeaderBottom" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HeaderMiddle" EntityType="Self.HeaderMiddle" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HeaderTop" EntityType="Self.HeaderTop" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HomeSlider" EntityType="Self.HomeSlider" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HomeSliderSlick" EntityType="Self.HomeSliderSlick" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Portfolios" EntityType="Self.Portfolios" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Shop" EntityType="Self.Shop" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Ustun" EntityType="Self.Ustun" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UstunContent" EntityType="Self.UstunContent" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="WeOffer" EntityType="Self.WeOffer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="XidmetContent" EntityType="Self.XidmetContent" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Xidmetler" EntityType="Self.Xidmetler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="yagalama" EntityType="Self.yagalama" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Yaglar" EntityType="Self.Yaglar" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
